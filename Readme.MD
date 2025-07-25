@@ -2,7 +2,6 @@
 
 A complete machine learning pipeline that uses clustering analysis followed by supervised classification to predict diabetes risk from health indicators.
 
----
 
 ## 📋 Table of Contents
 
@@ -17,7 +16,6 @@ A complete machine learning pipeline that uses clustering analysis followed by s
 - [Results](#-results)
 - [Contact](#-contact)
 
----
 
 ## 🎯 Project Overview
 
@@ -30,7 +28,6 @@ This project implements a comprehensive diabetes prediction system using a two-p
 
 **Dataset**: Pima Indians Diabetes Dataset with 8 health-related features including glucose levels, BMI, age, and genetic factors.
 
----
 
 ## ✨ Features
 
@@ -42,7 +39,7 @@ This project implements a comprehensive diabetes prediction system using a two-p
 - **Interactive Web App**: Streamlit interface for real-time predictions
 - **Complete Pipeline**: From data cleaning to model deployment
 
----
+
 
 ## 📊 Dataset
 
@@ -63,7 +60,7 @@ This project implements a comprehensive diabetes prediction system using a two-p
 - `df_cluster_final.csv`: Final processed dataset with cluster labels
 - `df_cluster_scaled.csv`: Standardized features for clustering
 
----
+
 
 ## 🛠 Installation
 
@@ -91,7 +88,7 @@ pip install pandas numpy scikit-learn streamlit joblib matplotlib seaborn imbala
    pip install pandas numpy scikit-learn streamlit joblib matplotlib seaborn imbalanced-learn
    ```
 
----
+
 
 ## 🚀 Usage
 
@@ -127,7 +124,7 @@ Use the Streamlit interface to input:
 - Age (10-100 years)
 - Diabetes Pedigree Function (0.0-2.5)
 
----
+
 
 ## 🔄 Project Workflow
 
@@ -150,7 +147,7 @@ Use the Streamlit interface to input:
    - Model evaluation and selection
    - Save best model to `models/model.pkl`
 
----
+
 
 ## 🌐 Web Application
 
@@ -175,7 +172,7 @@ The project includes a professional Streamlit web application (`app.py`) for rea
 - Provides fallback for missing scaler file
 - Error handling for robust user experience
 
----
+
 
 ## 📁 Project Structure
 
@@ -197,13 +194,12 @@ Diabetes-Prediction-with-Machine-Learning-Clustering-Classification/
 │   └── 03-classification_supervisee_based_on_clusters.ipynb # Classification
 │
 ├── app.py                         # Streamlit web application (tracked in git)
-├── 02-cluster.ipynb             # Additional clustering notebook (tracked in git)
 └── README.md                     # Project documentation
 ```
 
 **Note**: Files tracked in git repository are the core components of the project.
 
----
+
 
 ## 📈 Results
 
@@ -228,7 +224,7 @@ The final model can predict diabetes risk using only 4 key health metrics:
 - Age (demographic factor)
 - Diabetes Pedigree Function (genetic predisposition)
 
----
+
 
 ## 📞 Contact
 
@@ -237,7 +233,7 @@ The final model can predict diabetes risk using only 4 key health metrics:
 - **GitHub**: [@Ilhamelgharbi](https://github.com/Ilhamelgharbi)
 - **Repository**: [Diabetes-Prediction-with-Machine-Learning-Clustering-Classification](https://github.com/Ilhamelgharbi/Diabetes-Prediction-with-Machine-Learning-Clustering-Classification)
 
----
+
 
 ## � Technologies Used
 
@@ -249,6 +245,6 @@ The final model can predict diabetes risk using only 4 key health metrics:
 - **Joblib**: Model serialization
 - **Matplotlib & Seaborn**: Data visualization
 
----
+
 
 *Project developed as part of machine learning sprint focusing on diabetes prediction using clustering and classification techniques.*
