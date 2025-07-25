@@ -19,7 +19,7 @@ Diabetes-Prediction-with-Machine-Learning-Clustering-Classification/
 │
 ├── models/
 │   └── model.pkl                  # Modèle ML entraîné et optimisé
-│
+│   └── scaler.pkl     
 ├── notebooks/
 │   ├── 01-clean_data.ipynb        # Nettoyage et préparation des données
 │   ├── 02-clustring_kmeans.ipynb  # Clustering K-means et analyse des groupes
